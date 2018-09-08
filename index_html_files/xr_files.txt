@@ -1,6 +1,8 @@
 index_html_files
 index.html
 index.html
+sitemap.xml
+robots.txt
 index_html_files/1333.png
 index_html_files/1333@2x.png
 index_html_files/4117.png
@@ -79,8 +81,8 @@ index_html_files/4657.png
 index_html_files/4657@2x.png
 index_html_files/4689.jpg
 index_html_files/4689@2x.jpg
-index_html_files/4865.jpg
-index_html_files/4865@2x.jpg
+index_html_files/5029.png
+index_html_files/5029@2x.png
 index_html_files/4464.png
 index_html_files/4464@2x.png
 index_html_files/4465.png
@@ -191,3 +193,10 @@ index_html_files/4288.png
 index_html_files/4288@2x.png
 index_html_files/4973.png
 index_html_files/4973@2x.png
+index_html_files/4981.png
+index_html_files/4981@2x.png
+index_html_files/5088.png
+index_html_files/5089.png
+index_html_files/5089@2x.png
+index_html_files/4984.jpg
+index_html_files/4984@2x.jpg
