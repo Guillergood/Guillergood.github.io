@@ -1,9 +1,0 @@
-FUNCIONES 
-
-constructor()
-
-
-Variables 
-
-geometry 
-material 

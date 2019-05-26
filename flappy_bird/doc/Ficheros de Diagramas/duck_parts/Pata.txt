@@ -1,8 +1,0 @@
-
-
-getPosY()
-
-geometry 
-material 
-posZ 
-posY 
