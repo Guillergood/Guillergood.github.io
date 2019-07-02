@@ -23,7 +23,7 @@ function changeLanguage(language){
 
 function changeValues(value){
 	var matches = document.querySelectorAll('[data-translatable]');
-	var cv = document.querySelectorAll('[download]');
+	var cv = document.getElementsByClassName('downloadButton');
 	for (var i = 0; i < matches.length; ++i) {
 		if(matches[i].innerHTML.includes("<")){
 			matches[i].innerHTML = value[i];
