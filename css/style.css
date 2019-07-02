@@ -590,9 +590,11 @@ footer{
 
 @media screen and (min-width:0px) and (max-width:684px) {
 
-  .container{
+  .container, .descripcion{
     margin: 0;
+    padding:0.5em 1em 0.5em 1em;
   }
+
 
   .educacion {
     width: unset;
@@ -608,10 +610,6 @@ footer{
   .flag-wrapper {
     position: unset;
     display: unset;
-  }
-
-  .descripcion{
-    margin: 0;
   }
 
   .separador{
@@ -652,10 +650,8 @@ footer{
     bottom: unset;
     margin: 30%;
   }
-}
 
-@media screen and (min-width:0px) and (max-width:768px) {
-  #navbarTop{
+    #navbarTop{
     left: 60%;
     top: 40%;
   }
@@ -695,6 +691,8 @@ footer{
   .mobileMenu:active {
     background: #fff;
   }
-
-
+  .separador,h1,h3,h5,.descripcion,.container, .card_container .flag, .desc, .desc_pequeña  {
+    font-size: unset;
+  }
 }
+
