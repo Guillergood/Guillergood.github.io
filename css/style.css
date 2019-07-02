@@ -688,6 +688,12 @@ footer{
     background: #808080; 
   }
 
+	
+  .flag{
+    margin-top: 10em;
+    line-height: 2em;
+  }	
+	
   .mobileMenu:active {
     background: #fff;
   }
