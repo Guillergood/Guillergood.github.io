@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Oswald';
+  src: url('./fonts/oswald.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/oswald.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/oswald.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/oswald.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/oswald.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/oswald.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('./fonts/dosis.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/dosis.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/dosis.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/dosis.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/dosis.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/dosis.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('./fonts/raleway.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/raleway.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/raleway.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/raleway.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/raleway.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/raleway.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
