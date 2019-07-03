@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
 			var continua = true;
 			var i;
 			for (i = 0; i < separadores.length-1 && continua; ++i) {
-				if(separadores[i].offsetTop - scrollTop + (separadores[i+1].offsetTop - separadores[i].offsetTop) > 0 ){
+				if(separadores[i].offsetTop - scrollTop + (separadores[i+1].offsetTop - separadores[i].offsetTop - 150) > 0 ){
 					continua = false;
 					activo[0].classList.remove("active");
 					marcadores[i].classList.add("active");
@@ -46,9 +46,9 @@ function mobileMenuClicked(){
 	if(navbarTop.classList.contains("hidden")){
       navbarTop.classList.add("visible");
       navbarTop.classList.remove("hidden");
-  	} 
+	} 
 	else {
 			navbarTop.classList.remove("visible");
 			navbarTop.classList.add("hidden");
-  	}
+	}
 }
