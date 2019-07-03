@@ -334,6 +334,7 @@ li.default a.default.active {
   background: #fff;
   padding: 6px 10px;
   border-radius: 5px;
+  line-height: 2em;
   font-weight: 600;
   text-align: left;
   -webkit-box-shadow: 0 2px 2px rgba(0,0,0,.24), 0 0 2px rgba(0,0,0,.12);
@@ -689,6 +690,12 @@ footer{
     background: #808080; 
   }
 
+	
+  .flag{
+    margin-top: 10em;
+    line-height: 2em;
+  }	
+	
   .mobileMenu:active {
     background: #fff;
   }
