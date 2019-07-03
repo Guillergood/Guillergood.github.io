@@ -29,17 +29,13 @@ document.addEventListener("DOMContentLoaded", function() {
 				}
 			}
 
-			if(separadores[separadores.length-1].offsetTop - scrollTop < 150){
-				console.log(separadores[separadores.length-1].offsetTop - scrollTop);
-				console.log("ScrollTop" + scrollTop);
+			var position = window.innerHeight + window.scrollY;
+			var end = document.body.offsetHeight;
 
+			if(position == end){
 				navbarTop.getElementsByClassName("active")[0].classList.remove("active");
 				marcadores[separadores.length-1].classList.add("active");
 			}
-
-
-			
-
 
 
     });

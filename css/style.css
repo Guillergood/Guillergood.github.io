@@ -339,6 +339,8 @@ li.default a.default.active {
   -webkit-box-shadow: 0 2px 2px rgba(0,0,0,.24), 0 0 2px rgba(0,0,0,.12);
   -moz-box-shadow: 0 2px 2px rgba(0,0,0,.24), 0 0 2px rgba(0,0,0,.12);
   box-shadow: 0 2px 2px rgba(0,0,0,.24), 0 0 2px rgba(0,0,0,.12);
+  margin-top: 10em;
+  line-height: 2em; 
 }
 
 .direction-l .flag:before {
@@ -638,20 +640,19 @@ footer{
   }
 
   .image-r {
-    margin: unset;
+    float: unset;
     position: initial;
     bottom: unset;
-    margin: 30%;
+    margin: 10%;
   }
 
   .image-l {
-    margin: unset;
     position: initial;
     bottom: unset;
-    margin: 30%;
+    margin: 10%;
   }
 
-    #navbarTop{
+  #navbarTop{
     left: 60%;
     top: 40%;
   }
@@ -691,6 +692,12 @@ footer{
   .mobileMenu:active {
     background: #fff;
   }
+
+  .flag{
+    margin-top: 10em;
+    line-height: 2em;
+  }
+  
   .separador,h1,h3,h5,.descripcion,.container, .card_container .flag, .desc, .desc_pequeña  {
     font-size: unset;
   }
