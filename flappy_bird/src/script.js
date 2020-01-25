@@ -73,7 +73,7 @@ function showFinalScore(){
     }
 
 
-    finalScore.innerHTML = "Tu puntuacion ha sido: " + score.innerHTML + "<br>" + "Tu puntuacion total guardada: " + localStorage.score + "<br>"+ "Haz click o pulsa la barra espaciadora para empezar de nuevo<br> + "<br><a href=\"https://github.com/Guillergood/Guillergood.github.io/tree/master/flappy_bird\">Autores</a>" ;
+    finalScore.innerHTML = "Tu puntuacion ha sido: " + score.innerHTML + "<br>" + "Tu puntuacion total guardada: " + localStorage.score + "<br>"+ "Haz click o pulsa la barra espaciadora para empezar de nuevo<br>" + "<br><a href=\"https://github.com/Guillergood/Guillergood.github.io/tree/master/flappy_bird\">Autores</a>";
   }
   else {
     finalScore.innerHTML = "Tu puntuacion ha sido: " + score.innerHTML + "<br>" + "Haz click o pulsa la barra espaciadora para empezar de nuevo<br>" + "<br><a href=\"https://github.com/Guillergood/Guillergood.github.io/tree/master/flappy_bird\">Autores</a>" ;
